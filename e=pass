@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Loading ePass...</title>
+  <script>
+    // Replace URL bar text (only visual)
+    history.pushState({}, "", "http://dtcpass.delhi.gov.in/viewEPass?passno=7502022541869");
+
+    // Simulate infinite loading
+    setInterval(() => {
+      console.log("Still loading...");
+    }, 1000);
+  </script>
+</head>
+<body>
+  <h2 style="text-align:center; margin-top:20%;">Loading your ePass...</h2>
+</body>
+</html>
